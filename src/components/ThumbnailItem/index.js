@@ -14,9 +14,9 @@ class ThumbnailItem extends Component {
     const style = isActive ? 'highlight' : 'normal'
     return (
       <li key={id}>
-        <button type="button">
+        <button type="button" className="common">
           <img
-            className={style}
+            className={`${style} common`}
             src={thumbnailUrl}
             alt={thumbnailAltText}
             onClick={this.changeActiveImage}

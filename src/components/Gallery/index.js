@@ -101,8 +101,8 @@ class Gallery extends Component {
               <img className="active-img" src={one} alt={two} />
             </div>
             <div>
-              <h1>Nature Photography</h1>
-              <p>Nature Photography by Rahul</p>
+              <h1 className="head">Nature Photography</h1>
+              <p className="para">Nature Photography by Rahul</p>
               <ul>
                 {imagesList.map(ele => (
                   <ThumbnailItem
