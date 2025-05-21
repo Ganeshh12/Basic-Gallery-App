@@ -1,0 +1,17 @@
+.highlight {
+  opacity: 1;
+}
+
+li {
+  margin: 0px 15px 0px 0px;
+}
+
+.normal {
+  opacity: 0.5;
+}
+
+button {
+  border: 0px solid;
+  border-color: transparent;
+  background-color: transparent;
+}
